@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use App\Models\DeputyModel;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class DeputiesSeeder extends Seeder
