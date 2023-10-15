@@ -17,8 +17,6 @@ class FetchDeputies extends Command
 
         $response = Http::get($url);
 
-        // $newArray = [];
-
         if ($response->successful()) {
             $list = json_decode($response->body())->list;
             foreach ($list as $elem) {
