@@ -122,7 +122,7 @@ Exemplo de resposta:
 
 #### Para retornar os 5 deputados que mais pediram verba indenizatória por mês em 2019.
 
-```sh
+```http
   GET /expenses/{month}
 ```
 
@@ -152,7 +152,7 @@ Exemplo de resposta:
 
 #### Para retornar os 5 deputados que mais pediram verba indenizatória em cada mês de 2019.
 
-```sh
+```http
   GET /expenses
 ```
 
